@@ -1,0 +1,479 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+#top-message {
+    padding: 1px 30px 1px 1px;
+}
+
+#top-message p {
+    text-align:right;
+    color: #BBD8F2;
+}
+
+.car-mart-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="car-mart-col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="car-mart-col-"] {
+  width: 100%;
+}
+
+.car-mart-col-sml-2{
+    width: 25%;
+    margin-left: 0;
+}
+
+.car-mart-col-sml-8{
+    width: 50%;
+    margin-left: 0;
+}
+
+
+.car-mart-col-sml-8 .ist{
+    color:whitesmoke;
+    font-size:5vw;
+    font-weight:bold;
+    margin-left:15px;
+    font-family:cursive;
+} 
+
+
+.car-mart-col-sml-8 .iist{
+    color:#3F4B59;
+    font-size:5vw;
+    font-weight:bold;
+    font-family:cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.large-devices {
+    display: none;
+}
+
+.Medium-device { display: none; }
+
+#Login {
+   position: relative;
+   top:100px;
+}
+
+#Login h3{
+    text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .car-mart-col-s-1 {width: 8.33%;}
+  .car-mart-col-s-2 {width: 16.66%;}
+  .car-mart-col-s-3 {width: 25%;}
+  .car-mart-col-s-4 {width: 33.33%;}
+  .car-mart-col-s-5 {width: 41.66%;}
+  .car-mart-col-s-6 {width: 50%;}
+  .car-mart-col-s-7 {width: 58.33%;}
+  .car-mart-col-s-8 {width: 66.66%;}
+  .car-mart-col-s-9 {width: 75%;}
+  .car-mart-col-s-10 {width: 83.33%;}
+  .car-mart-col-s-11 {width: 91.66%;}
+  .car-mart-col-s-12 {width: 100%;}
+  .small-devices { display: none; }
+  .large-devices { display: block; }
+    .Medium-device { display: none; }
+    #Login { width:50%;
+            margin: auto;
+    }
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .car-mart-col-1 {width: 8.33%;}
+  .car-mart-col-2 {width: 16.66%;}
+  .car-mart-col-3 {width: 25%;}
+  .car-mart-col-4 {width: 33.33%;}
+  .car-mart-col-5 {width: 41.66%;}
+  .car-mart-col-6 {width: 50%;}
+  .car-mart-col-7 {width: 58.33%;}
+  .car-mart-col-8 {width: 66.66%;}
+  .car-mart-col-9 {width: 75%;}
+  .car-mart-col-10 {width: 83.33%;}
+  .car-mart-col-11 {width: 91.66%;}
+  .car-mart-col-12 {width: 100%;}
+  .small-devices { display: none;}
+  .large-devices { display: block;}
+  .Medium-device { display: inline; }
+}
+
+@media only screen and (min-width: 740px){
+    .Medium-device { display: inline; }
+    .Medium-device-show { display: none; }
+}
+
+.car-mart-icons {
+    background-image: url(car-mart-icons.png);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+.car-mart-icons-20 {
+    background-image: url(car-mart-icons.png);
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+}
+
+.car-mart-icons-home {
+    background-position: -20px -200px;
+}
+
+.car-mart-icons-home-dark {
+    background-position: -60px -200px;
+}
+
+.car-mart-icons-category {
+    background-position: -20px -255px;
+}
+
+.car-mart-icons-category-dark {
+    background-position: -63px -255px;
+}
+
+.car-mart-icons-cars {
+    background-position: -20px -300px;
+}
+
+.car-mart-icons-cars-dark {
+    background-position: -63px -300px;
+}
+
+.car-mart-icons-orders {
+    background-position: -20px -345px;
+}
+
+.car-mart-icons-orders-dark {
+    background-position: -63px -345px;
+}
+
+.car-mart-icons-info {
+    background-position: -20px -391px;
+}
+
+.car-mart-icons-info-dark {
+    background-position: -63px -391px;
+}
+
+
+.car-mart-icons-search {
+    background-position: -20px -20px;
+}
+
+.car-mart-icons-login {
+    background-position: -20px -80px;
+}
+
+.car-mart-icons-sign-up {
+    background-position: -20px -140px;
+}
+
+/*  Color Classes */
+.car-mart-dark {
+    background-color: #3F4B59;
+}
+
+
+.no-spaces {
+    margin: 0;
+    padding: 0;
+}
+.left-search {
+    border-radius:10px 0 0 10px;  
+}
+
+.right-search {
+    border-radius:0 10px 10px 0;
+}
+
+.top-search {
+    border-radius:10px 10px 0 0;
+}
+
+.bottom-search {
+    border-radius:0 0 10px 10px;
+}
+
+.right-button {
+    border-radius:0 10px 10px 0;
+}
+
+.left-button {
+    border-radius:10px 0 0 10px;
+}
+
+.top-button {
+    border-radius:10px 10px 0 0;
+}
+
+.bottom-button {
+    border-radius:10px 10px 10px 10px;
+}
+
+.car-mart-btn {
+    color: #BBD8F2;
+    text-decoration: none;
+}
+
+.car-mart-btn-form {
+
+width: 100%;
+   height: 50px;
+   border :none;
+   color:#BBD8F2;
+   background-color:#3F4B59;
+   cursor: pointer;
+   margin-top: 40px;
+}
+
+
+
+.navigation nav a {
+    padding: 30px 30px 16px 30px;
+    margin: 0;
+    background-color: #BBD8F2;
+}
+
+
+
+.car-mart-input{
+    width:100%;
+    height:50px;
+    background:#BBD8F2;
+    border:none;
+    padding-left:15px;
+}
+
+
+
+.navigation nav a.last-element{
+    border-radius: 0 10px 0 0;
+}
+.navigation  a.More-Menus{
+    padding: 30px 16px 16px 16px;
+    position: relative;
+    z-index: 1000;
+}
+
+.navigation a.More-Menus img{
+    width:40px;
+    height: 25px;
+}
+
+.topBar-left, topBar-right {
+   padding: 30px 10px 16px 10px;
+    background-color: #BBD8F2;
+}
+.topBar-left {
+   border-radius: 10px 0 0 10px;
+   
+}
+
+.topBar-right {
+   border-radius: 0 10px 10px 0;
+   padding: 30px 10px 16px 10px;
+   background-color: #BBD8F2;
+}
+
+.navigation nav a.active,.navigation nav a:hover {
+    border-width: 3px 3px 0px 3px;
+    border-color: #BBD8F2;
+    color: #BBD8F2;
+    background-color: #3F4B59;
+    border-style: solid;
+    border-radius: 10px 10px 0 0;
+}
+.navigation nav a:hover {
+    border-width: 0;
+}
+.navigation nav a.active:hover {
+    border-width: 3px 3px 0px 3px;
+}
+.navigation nav a.More-Menus:hover{
+    background-color: #BBD8F2;
+}
+
+.navigation nav ul {
+    margin-left: 170px;
+    margin-top: -20px;
+    padding: 0;
+    position: absolute;
+    width: 200px;
+    z-index: 200;
+    display: none;
+}
+
+.navigation nav ul li {
+    list-style: none;
+    
+}
+.navigation nav ul li a {
+    display: block;
+    padding: 10px 30px 15px 30px;
+    
+}
+.navigation nav ul li a:hover{
+    border-radius: 0;
+}
+
+#car-mart-icon {
+    width: 50px;
+    height: 50px;
+}
+
+img.car-mart-pubs {
+    width:100%;
+    height: 30px;
+    
+}
+
+.navigation-toggle ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+
+.navigation-toggle ul li{
+    list-style: none;
+}
+.navigation-toggle ul li a {
+    display: block;
+    width:100%;
+    padding: 10px;
+    text-decoration: none;
+    color: #BBD8F2;
+    border-bottom: 2px solid #BBD8F2;
+}
+
+.navigation-toggle ul li a.active, .navigation-toggle ul li a:hover  {
+    background-color: #BBD8F2;
+    color: #3F4B59;
+}
+.pipslide img {
+    width: 98%;
+    height: 400px;
+}
+.slide_datas {
+    width: 50%;
+    position: absolute;
+    top:50%;
+    background-color: rgba(107, 143, 191, 0.7);
+   border-radius:0 10px 10px 0;
+}
+.slide_datas h3 {
+    color: #3F4B59;
+    text-align: center;
+}
+
+#Home-slider {
+    position: relative;
+    top:10px;
+/*    opacity: 0.5;*/
+/*    display: none;*/
+    transition: top 0.5s;
+}
+#Home-products, #Home-offer ,#Home-category,#Home-footer{
+    position: relative;
+    top:500px;
+    margin: auto;
+}
+#Home-offer img {
+    width:80%;
+    
+}
+#log-footer {
+    position: relative;
+    top:200px;
+    margin: auto;
+}
+
+.prod-box .prod-trans .prod-feature .product-ordering {
+    background-color: #3F4B59;
+    color: #BBD8F2;
+    border: 0;
+    width: 50%;
+    height: 50px;
+    cursor: pointer;
+}
+
+.prod-box .prod-trans .prod-feature .product-ordering:hover {
+    background-color:#BBD8F2;
+    color:  #3F4B59;
+}
+
+.prod-box .prod-trans .prod-feature p.product-price {
+    color:#BBD8F2;
+    font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

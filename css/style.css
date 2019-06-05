@@ -1,0 +1,298 @@
+#wrapper{font-family:tahoma;}
+
+*{
+    font-family:tahoma;
+}
+
+
+
+#subheader{
+    width:100%;
+    height:30px;
+    background: #3F4B59;;
+    color:whitesmoke;
+    margin-top: -15px;
+}
+#subheader p{
+    float:left;
+    margin-top:7px;
+}
+#subheader a{
+    float:right;
+    line-height: 30px;
+    color:whitesmoke;
+    text-decoration:none;
+    margin-left:30px;
+}
+/*logo styling*/
+#main-header{
+    background:#6B90BF;
+    margin-bottom: 10px;
+}
+#logo{
+    width:250px;
+    margin-top:10px;
+    float:left;
+}
+#ist{
+    color:whitesmoke;
+    font-size:2vw;
+    font-weight:bold;
+    margin-left:15px;
+    font-family:cursive;
+} 
+#iist{
+    color:#3F4B59;
+    font-size:2vw;
+    font-weight:bold;
+    font-family:cursive;
+}
+/*searching area styling*/
+#search{
+
+    float:left;
+    padding:20px;
+    margin-left:50px;
+}
+.search-area{
+    width:100%;
+    height:50px;
+    background:#BBD8F2;
+    border:none;
+    border-radius:10px;
+    float:left;
+    padding-left:15px;
+}
+.search-btn{
+   width: 100%;
+   height: 50px;
+   border-radius: 10px;
+   border :none;
+   color:#BBD8F2;
+   background-color:#3F4B59;
+   cursor: pointer;
+}
+.search-btn:hover {
+    background-color:#586F8C;
+}
+
+
+  
+/*this is for user menu styling */
+#user-menu{
+    width:300px;
+    float:right;
+    margin-top:20px;
+} 
+/*this for list styling*/
+#user-menu li{
+    float:left;
+    width:140px;
+    text-align:center;
+    list-style:none;
+    font-size: 20px;
+    /*border-left:1px solid #3F4B59;*/
+}
+#user-menu li:hover{
+    font-size:30vw;
+    transition:all .5s ease;
+}
+#user-menu li a{
+    color:whitesmoke;
+    text-decoration:none;
+}
+
+/* the navigation bar styling */
+nav{
+    
+    margin:0 auto;
+}
+nav a{
+    
+    color:#3F4B59;
+    text-decoration: none;
+}
+nav a:hover {
+    color:whitesmoke;
+    transition:all .7 aese;
+}
+
+/*========slider=============*/
+#slider{
+    width:100%;
+    max-width:100%;
+    float:left;
+    height:65%;
+}
+.bx-viewport {
+    margin-top:-10px;
+    margin-left:-5px;
+}
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+  bottom: 30px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: #8FAFD9;
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+  }
+  /*===============category heading*/
+  #heading-block{
+      width: 100%;
+      height:auto;
+      float:left;
+      color:#586F8C;
+      font-size:2vw
+  }
+#heading-block h2{
+    line-height:2vw;
+    border-left:20px solid #586F8C;
+    padding-left:10px;
+}
+/*===============category boxes===*/
+.catbox{
+    width:235px;
+    height:230px;
+    float:left;
+    overflow:hidden;
+    position: relative;
+    margin:0 15 30 0; 
+}
+.catbox span{
+    width: 100%;
+    height:35px;
+    line-height:35px;
+    background: rgba(0, 0, 0, 0.6);
+    color:#BBD8F2;
+    display:block;
+    bottom:30px;
+    position:absolute;
+    z-index:999;
+    text-align:center;
+}
+.catbox:hover span{
+    color:whitesmoke;
+}
+.catbox img{
+    max-width:100%;
+    transition:all .5s ease;
+}
+.catbox:hover img{
+     transform: scale(1.3,1.3);
+     transition:all .5s ease;
+}
+/*============this is for product styling=============*/
+.prod-box{
+    width:235;
+    height:300;
+    overflow:hidden;
+    margin:0 20 30 0;
+    position:relative;
+    float:left;
+}
+.prod-box>img{
+    max-width:100%;
+}
+.prod-trans{
+    background:rgba(0,0,0,0.6);
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    bottom:0;
+    right: 0;
+    position:absolute;
+    opacity:0;
+    transition: all .5s ease;
+}
+.prod-box:hover .prod-trans{
+    opacity: 1;
+    transition: all .5s ease;
+} 
+.prod-feature{
+    text-align:center;
+    margin-top:-150px;
+    transition: all .5s ease;
+}
+.prod-feature p{
+    color:#BBD8F2;
+    font-family: verdana;
+} 
+.prod-box:hover .prod-feature{
+    margin-top :150px;
+    transition: all .5s ease;
+}
+.prod-feature input{
+    width:150px;
+    height:35px;
+    font-size:17vw;
+}
+
+
+/*footer start*/
+    #footer{
+    width:100%;
+    height:auto;
+    background: #6B90BF;
+    float:left;
+}
+
+#footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+#footer ul {
+    list-style: none;
+}
+
+.subs{
+    width:100%;
+    border:none;
+    height:50px;
+    padding:15px;
+    float:left;
+}
+.sub_btn{
+    height:50px;
+    width:100%;
+    border:none; background:#3F4B59;
+    float:left;
+}
+
+a:visited{
+    color: aliceblue;
+}
+a {
+   color: #3F4B59;
+}
+
+
+
+
+
+/* footer end */
+
+
+
+/* Color Theme Swatches in Hex */
+.Senja-1-hex { color: #6B90BF; }
+.Senja-2-hex { color: #586F8C; }
+.Senja-3-hex { color: #8FAFD9; }
+.Senja-4-hex { color: #3F4B59; }
+.Senja-5-hex { color: #BBD8F2; }
+
+
+/* Color Theme Swatches in RGBA */
+.Senja-1-rgba { color: rgba(107, 143, 191, 1); }
+.Senja-2-rgba { color: rgba(88, 110, 140, 1); }
+.Senja-3-rgba { color: rgba(143, 174, 216, 1); }
+.Senja-4-rgba { color: rgba(63, 74, 89, 1); }
+.Senja-5-rgba { color: rgba(186, 216, 242, 1); }
+
+
+
+
