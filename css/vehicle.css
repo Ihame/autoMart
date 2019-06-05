@@ -1,0 +1,92 @@
+
+.product_gallery{
+	margin:0 auto;
+	width: 1200px;
+	list-style: none;
+	padding-left: 0px;
+}
+.product_gallery li{
+	float:left;
+	width:235px;
+	margin-right:50px;
+	margin-top: 30px;
+	border:1px solid #999;
+}
+.product_gallery li img{
+	width:235px;
+	height:300px;
+	float:left;
+}
+.product_description{
+	background:rgba(0,0,0,0.6);
+	position:absolute;
+	width:235px;
+	height:300px;
+	opacity:0;
+	transition:all 1s ease;
+	}
+.product_gallery li:hover .product_description{opacity:0.6;}
+.product_description p{
+	padding:10px;
+font-family: verdana;
+	color: whitesmoke;
+  
+}
+.product_information{
+	height:40px;
+	background:#586F8C;
+	width:100%;
+	float:left;
+
+}
+.product_information h4{
+	float:left;
+	 color:#bbd8f2;
+	 width:70%;
+	margin-top:11px;
+}
+.product_information span{
+float: right;
+color: #bbd8f2;
+font-size: 20px;
+height: 42px;
+margin-top: -43px;
+}
+.order_now{
+    background: #16166f;
+    color: #fff;
+    width: 200px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    height: 30px;
+}
+
+/*======================product cstegory=============*/
+
+.vehicle_cat{
+	list-style:none;
+	margin: auto;
+	width:1200px;
+	float:left;
+}
+
+.vehicle_cat li{
+	float:left;
+	color:white;
+	background:#586F8C;
+	width:100px;
+	margin-right:30px;
+	height:40px;
+	text-align:center;
+	padding-top: :10px;
+	cursor:pointer;
+
+	} 
+
+/*=========================================== header=============================================================*/
+.category{
+	 padding: 22px 0px 0px 0px;
+}
+

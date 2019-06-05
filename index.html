@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>:: AUTO Mart::</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Auto Mart For Selling and Buying Cars">
+    <meta name="keywords" content=" Buy And Sell Cars ">
+    <meta name="author" content="IHAME Lievin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo.png">
+
+    <!-- Css file to be used on the Page-->
+    <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/response.css">
+
+</head>
+
+<body>
+    <div class="car-mart-row car-mart-dark large-devices" id="top-message">
+        <p> Online marketplace for automobiles </p>
+    </div>
+    <div id="main-header" class="car-mart-row no-spaces">
+        <div class="car-mart-col-s-3  large-devices">
+            <a href="index.html">
+                <img src="images/logo.png" id="car-mart-icon">
+                <span id="ist">AUTO</span>
+                <span id="iist">Mart</span>
+                <span class="inspect"></span>
+            </a>
+        </div>
+        <div class="car-mart-col-s-12 small-devices">
+            <div class="car-mart-row">
+                <div class="car-mart-col-sml-2 navigation">
+                    <a href="#" id="search_trig" class="Medium-device-show last-element More-Menus topBar-left">
+                        <img src="images/search.png">
+                    </a>
+                </div>
+                <div class="car-mart-col-sml-8">
+                    <a href="index.html">
+                        <span class="ist">AUTO</span>
+                        <span class="iist">Mart</span>
+                        <span class="inspect"></span>
+                    </a>
+                </div>
+                <div class="car-mart-col-sml-2 navigation">
+                    <a href="#" id="Menu_trig" class="Medium-device-show last-element More-Menus topBar-right">
+                        <img src="images/menu-alt.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="car-mart-col-s-6">
+            <form action="">
+                <div class="car-mart-row">
+                    <div class="car-mart-col-s-12 no-spaces large-devices">
+                        <!--                                <img src= "images/carmart.gif" class="car-mart-pubs">-->
+                    </div>
+                    <div class="car-mart-col-s-10 no-spaces large-devices">
+                        <input class="search-area left-search" type="text" name="text" placeholder="Search Car">
+                    </div>
+                    <div class="car-mart-col-s-10 no-spaces small-devices search-toggle">
+                        <input class="search-area top-search" type="text" name="text" placeholder="Search Car">
+                    </div>
+                    <div class="car-mart-col-s-2 no-spaces large-devices">
+                        <button class="search-btn right-button" type="submit" name="submit">
+                            <span class="car-mart-icons car-mart-icons-search"></span>
+                        </button>
+                    </div>
+                    <div class="car-mart-col-s-2 no-spaces small-devices search-toggle">
+                        <button class="search-btn bottom-button" type="submit" name="submit">
+                            <span class="car-mart-icons car-mart-icons-search"></span>
+                        </button>
+                    </div>
+                    <div class="car-mart-col-s-2 no-spaces small-devices navigation-toggle">
+                        <ul class="car-mart-dark">
+                            <li><a href="index.html" class="active">
+                                    <span class="car-mart-icons-20 car-mart-icons-home-dark"></span> Home </a></li>
+                            <li><a href="html/categories.html">
+                                    <span class="car-mart-icons-20 car-mart-icons-category"></span> Category </a></li>
+                            <li><a href="html/allcars.html">
+                                    <span class="car-mart-icons-20 car-mart-icons-cars"></span> All Cars </a></li>
+                            <li><a href="html/contact.html">
+                                    <span class="car-mart-icons-20 car-mart-icons-info"></span> Contact us </a></li>
+                        </ul>
+                        <div class="car-mart-row ">
+                            <div class="car-mart-col-sml-8">
+                                <a href="html/login.html" class="car-mart-btn">
+                                    <span class="car-mart-icons car-mart-icons-login"></span> <br> Login </a>
+                            </div>
+                            <div class="car-mart-col-sml-8">
+                                <a href="html/register.html" class="car-mart-btn">
+                                    <span class="car-mart-icons car-mart-icons-sign-up"></span> <br> Sign Up </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="car-mart-col-s-3 large-devices">
+            <div class="car-mart-row ">
+                <div class="car-mart-col-s-6">
+                    <a href="html/login.html" class="car-mart-btn">
+                        <span class="car-mart-icons car-mart-icons-login"></span> <br> Login </a>
+                </div>
+                <div class="car-mart-col-s-6">
+                    <a href="html/register.html" class="car-mart-btn">
+                        <span class="car-mart-icons car-mart-icons-sign-up"></span> <br> Sign Up </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----==========navigation bar=======-->
+    <div class="car-mart-row no-spaces large-devices">
+        <div class="navigation" class="car-mart-col-s-12">
+            <nav>
+                <a href="index.html" class="active">
+                    <span class="car-mart-icons-20 car-mart-icons-home"></span> Home </a>
+                <a href="html/categories.html" class="Medium-device">
+                    <span class="car-mart-icons-20 car-mart-icons-category-dark"></span> Category </a>
+                <a href="html/allcars.html" class="Medium-device">
+                    <span class="car-mart-icons-20 car-mart-icons-cars-dark"></span> All Cars </a>
+                <a href="html/login.html" class="Medium-device">
+                    <span class="car-mart-icons-20 car-mart-icons-orders-dark"></span> POST Ad </a>
+                <a href="html/contact.html" class="Medium-device last-element">
+                    <span class="car-mart-icons-20 car-mart-icons-info-dark"></span> Contact us </a>
+                <a href="#" class="Medium-device-show last-element More-Menus">
+                    <img src="images/menu-alt.png">
+                    <ul id="Medium_dropDown">
+                        <li>
+                            <a href="html/categories.html">
+                                <span class="car-mart-icons-20 car-mart-icons-category-dark"></span> Category
+                            </a>
+                        </li>
+                        <li>
+                            <a href="html/allcars.html">
+                                <span class="car-mart-icons-20 car-mart-icons-cars-dark"></span> All Cars
+                            </a>
+                        </li>
+                        <li>
+                            <a href="html/login.html">
+                                <span class="car-mart-icons-20 car-mart-icons-orders-dark"></span> POST AD
+                            </a>
+                        </li>
+                        <li>
+                            <a href="html/contact.html">
+                                <span class="car-mart-icons-20 car-mart-icons-info-dark"></span> Contact us
+                            </a>
+                        </li>
+                    </ul>
+                </a>
+
+            </nav>
+        </div>
+    </div>
+
+    <div class="car-mart-row" id="Home-slider">
+        <div class="car-mart-col-s-12 pipslide">
+            <img src="images/img1.jpg">
+            <div class="slide_datas">
+                <h3>Your Next Mercedes </h3>
+                <button class="search-btn bottom-button"> See More </button>
+            </div>
+        </div>
+        <div class="car-mart-col-s-12 pipslide">
+            <img src="images/img2.jpg">
+            <div class="slide_datas">
+                <h3> Vintage Cars</h3>
+                <button class="search-btn bottom-button"> See More </button>
+            </div>
+        </div>
+        <div class="car-mart-col-s-12 pipslide">
+            <img src="images/img3.jpg">
+            <div class="slide_datas">
+                <h3> BMW </h3>
+                <button class="search-btn bottom-button"> See More </button>
+            </div>
+        </div>
+    </div>
+    <div class="car-mart-row" id="Home-category">
+        <div id="heading-block">
+            <h2> Categories </h2>
+        </div>
+        <!--==========1st category sport car==========-!-->
+        <a href="html/categories.html">
+            <div class="catbox">
+                <img src="images/cat1.png" alt="sports-car">
+                <span>CARS</span>
+            </div>
+        </a>
+        <!--==========2nd category sport car=========!-->
+        <a href="html/categories.html">
+            <div class="catbox">
+                <img src="images/cat2.png" alt="sport-car">
+                <span>Vintage</span>
+            </div>
+        </a>
+        <!--==========3rd category sport car==========-->
+        <a href="html/categories.html">
+            <div class="catbox">
+                <img src="images/cat3.png" alt="sport-car">
+                <span>TRUCK</span>
+            </div>
+        </a>
+        <!--==========4th category sport car=========-->
+        <a href="html/categories.html">
+            <div class="catbox">
+                <img src="images/CAT4.png" alt="sport-car">
+                <span>BIKES</span>
+            </div>
+        </a>
+        <!--==========5th category sport car==========-->
+        <a href="html/categories.html">
+            <div class="catbox">
+                <img src="images/cat5.png" alt="sport-car">
+                <span>SPORTS CAR</span>
+            </div>
+        </a>
+    </div>
+    <div class="car-mart-row" id="Home-products">
+        <!--==========HEADING OF CATEGORY=======-->
+        <div id="heading-block">
+            <h2>Vehicles</h2>
+        </div>
+        <div class="prod-container">
+            <!---===========first product======-->
+            <div class="prod-box">
+                <img src="images/pro46.jpg" alt="benz">
+                <div class="prod-trans">
+                    <div class="prod-feature">
+                        <p> HONDA</p>
+                        <p class="product-price">price: 1,000,000 RWF</p>
+                        <button type="button" class="product-ordering"> Order Now </button>
+                    </div>
+                </div>
+            </div>
+            <!--===========2nd product======-->
+            <div class="prod-box">
+                <img src="images/pro48.jpg" alt="scania">
+                <div class="prod-trans">
+                    <div class="prod-feature">
+                        <p> YAMAHA</p>
+                        <p class="product-price">price: 8,500,000 RWF</p>
+                        <button type="button" class="product-ordering"> Order Now </button>
+                    </div>
+                </div>
+            </div>
+            <!--===========3rd product======-->
+            <div class="prod-box">
+                <img src="images/pro42.jpg" alt="Toyota v8">
+                <div class="prod-trans">
+                    <div class="prod-feature">
+                        <p>SCANIA</p>
+                        <p class="product-price">price: 15,000,000 RWF</p>
+                        <button type="button" class="product-ordering"> Order Now </button>
+                    </div>
+                </div>
+            </div>
+            <!--===========4th product======-->
+            <div class="prod-box">
+                <img src="images/pro37.jpg" alt="classic ferrari">
+                <div class="prod-trans">
+                    <div class="prod-feature">
+                        <p>SUZUKI </p>
+                        <p class="product-price">price: 2,000,000 RWF</p>
+                        <button type="button" class="product-ordering"> Order Now </button>
+                    </div>
+                </div>
+            </div>
+            <!--===========5th product======-->
+            <div class="prod-box">
+                <img src="images/pro36.jpg" alt="Fuso">
+                <div class="prod-trans">
+                    <div class="prod-feature">
+                        <p> VOLKSWAGEN</p>
+                        <p class="product-price">price: 25,000,000 RWF</p>
+                        <button type="button" class="product-ordering"> Order Now </button>
+                    </div>
+                </div>
+            </div>
+            <!--===========6th product======-->
+            <div class="prod-box">
+                <img src="images/pro24.jpg" alt="classic 1910">
+                <div class="prod-trans">
+                    <div class="prod-feature">
+                        <p> FUSO</p>
+                        <p class="product-price">price: 30,000,000 RWF</p>
+                        <button type="button" class="product-ordering"> Order Now </button>
+                    </div>
+                </div>
+            </div>
+            <!--===========7th product======-->
+            <div class="prod-box">
+                <img src="images/pro23.jpg" alt="Land Cruser">
+                <div class="prod-trans">
+                    <div class="prod-feature">
+                        <p> FERRARI</p>
+                        <p class="product-price">price: 14,000,000 RWF</p>
+                        <button type="button" class="product-ordering"> Order Now </button>
+                    </div>
+                </div>
+            </div>
+            <!--===========8th product======-->
+            <div class="prod-box">
+                <img src="images/pro21.jpg" alt="bike monster">
+                <div class="prod-trans">
+                    <div class="prod-feature">
+                        <p> Monster JEEP</p>
+                        <p class="product-price">price: 20,000,000 RWF</p>
+                        <button type="button" class="product-ordering"> Order Now </button>
+                    </div>
+                </div>
+            </div>
+            <!--===========9th product======-->
+            <div class="prod-box">
+                <img src="images/pro20.jpg" alt="Ducatti">
+                <div class="prod-trans">
+                    <div class="prod-feature">
+                        <p> Lamborghini</p>
+                        <p class="product-price">price:600,000,000 RWF</p>
+                        <button type="button" class="product-ordering"> Order Now </button>
+                    </div>
+                </div>
+            </div>
+            <!--===========10th product======-->
+            <div class="prod-box">
+                <img src="images/pro13.jpg" alt="lambo">
+                <div class="prod-trans">
+                    <div class="prod-feature">
+                        <p>SUZUKI</p>
+                        <p class="product-price">price: 6,000,000 RWF</p>
+                        <button type="button" class="product-ordering"> Order Now </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="car-mart-row" id="Home-offer">
+        <div id="heading-block" class="car-mart-col-s-12">
+            <h2>offer</h2>
+        </div>
+        <div class="car-mart-col-s-4">
+            <a href="#">
+                <img src="images/offer1.jpg">
+            </a>
+        </div>
+        <div class="car-mart-col-s-4">
+            <a href="#">
+                <img src="images/offer2.jpg">
+            </a>
+        </div>
+        <div class="car-mart-col-s-4">
+            <a href="#">
+                <img src="images/offer3.jpg">
+            </a>
+        </div>
+    </div>
+    <div class="car-mart-row" id="Home-footer">
+        <div class="car-mart-col-s-12">
+            <div id="footer">
+                <div id="container">
+                    <div class="car-mart-row">
+                        <div class="car-mart-col-s-3">
+                            <h2> Our story </h2>
+                            <p>Auto Mart is an online marketplace for automobiles of diverse makes, model or body type.
+                                With
+                                Auto Mart. <span>
+                                    <a href="#"> Read more...</a>
+                                </span></p>
+                        </div>
+                        <div class="car-mart-col-s-3">
+                            <h2>Important Links</h2>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Category</a></li>
+                                <li><a href="#">Vehicles</a></li>
+                                <li><a href="#">Post AD</a></li>
+                                <li><a href="#">Contact us</a></li>
+                            </ul>
+                        </div>
+                        <div class="car-mart-col-s-3">
+                            <h2>Social Links</h2>
+                            <ul>
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Google+</a></li>
+                                <li><a href="#">youtube</a></li>
+                                <li><a href="#">twitter</a></li>
+                                <li><a href="#">Linkdin</a></li>
+                            </ul>
+                        </div>
+                        <div class="car-mart-col-s-3">
+                            <center>
+                                <h2>Subscribe</h2>
+                                <input type="text" name="subs" placeholder="Write  your e-mail" class="subs">
+                                <input type="submit" name="submit_btn" value="Subscribe" class="sub_btn">
+                            </center>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/my.js"></script>
+
+</body>
+
+</html>
