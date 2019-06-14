@@ -1,0 +1,21 @@
+ *{
+ 	margin:0;
+ 	box-sizing:border-box;
+ 	padding:0;
+ }
+
+ body{
+ 	height:00vh;
+ 	display:flex;
+ 	background-color:rgb(87,189,130);
+ 	transition:0.5s ease;
+ 	postion:relative;
+ }
+ .field-name,
+ .field-email,
+ .field-password{
+ position:absolute;
+ top:50%
+ left:50%
+
+}

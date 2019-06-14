@@ -117,9 +117,6 @@ a {
   .car-mart-col-s-2 {width: 16.66%;}
   .car-mart-col-s-3 {width: 25%;}
   .car-mart-col-s-4 {width: 33.33%;}
-    .product_gallery .product_gallery_item_x .product_description_x {
-        display: none;
-    }
   .car-mart-col-s-5 {width: 41.66%;}
   .car-mart-col-s-6 {width: 50%;}
   .car-mart-col-s-7 {width: 58.33%;}
@@ -142,9 +139,6 @@ a {
   .car-mart-col-3 {width: 25%;}
   .car-mart-col-4 {width: 33.33%;}
   .car-mart-col-5 {width: 41.66%;}
-    .product_gallery .product_gallery_item_x .product_description_x {
-        display: block;
-    }
   .car-mart-col-6 {width: 50%;}
   .car-mart-col-7 {width: 58.33%;}
   .car-mart-col-8 {width: 66.66%;}
@@ -155,7 +149,6 @@ a {
   .small-devices { display: none;}
   .large-devices { display: block;}
   .Medium-device { display: inline; }
-  .product_gallery .product_gallery_item_x{ margin-bottom: -200px; }
 }
 
 @media only screen and (min-width: 740px){
@@ -435,17 +428,10 @@ img.car-mart-pubs {
 /*    display: none;*/
     transition: top 0.5s;
 }
-#Home-products,
-#Home-offer,
-#Home-category,
-#Home-footer,
-#Categories-section {
+#Home-products, #Home-offer ,#Home-category,#Home-footer{
     position: relative;
     top:500px;
     margin: auto;
-}
-#Categories-section {
-    top:40px;
 }
 #Home-offer img {
     width:80%;
