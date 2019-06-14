@@ -1,0 +1,144 @@
+.product_gallery .product_gallery_item_x{
+   padding-bottom: 0px;
+/*  margin-bottom: -200px;*/
+}
+
+.product_gallery .product_gallery_item_x img{
+    width:50%;
+	height:300px;
+    position: relative;
+    left: 25%;
+}
+.product_gallery .product_gallery_item_x .product_description_x{
+    margin: auto;
+    width:100%;
+    position: relative;
+    background-color: red;
+}
+
+.product_gallery .product_gallery_item_x .product_description_x{
+    margin: auto;
+    width:100%;
+    position: relative;
+    background-color: red;
+    opacity: 0;
+    top:-250px;
+    transition:all 1s ease;
+    background-color: #3F4B59;
+    color: #BBD8F2;
+    padding: 20px;
+    display: block;
+}
+.product_gallery .product_gallery_item_x .product_information_x{
+    position: relative;
+    background-color: #3F4B59;
+    color: #BBD8F2;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+.product_gallery .product_gallery_title {
+  font-weight: bold;
+}
+
+
+
+.product_gallery .product_gallery_item_x:hover .product_description_x{
+    opacity:0.8;
+    top:-300px;
+}
+.product_gallery .product_gallery_item_x .product_description_x :hover{
+    opacity: 1;
+}
+
+
+.product_gallery li{
+	float:left;
+	width:235px;
+	margin-right:50px;
+	margin-top: 30px;
+	border:1px solid #999;
+}
+
+
+.product_gallery img{
+	width:235px;
+	height:300px;
+}
+.product_description{
+	background:rgba(0,0,0,0.6);
+	position:absolute;
+	width:235px;
+	height:300px;
+	opacity:0;
+	transition:all 1s ease;
+	}
+.product_gallery li:hover .product_description{opacity:0.6;}
+.product_description p{
+	padding:10px;
+font-family: verdana;
+	color: whitesmoke;
+  
+}
+.product_information{
+	height:40px;
+	background:#586F8C;
+	width:100%;
+	float:left;
+
+}
+.product_information h4{
+	float:left;
+	 color:#bbd8f2;
+	 width:70%;
+	margin-top:11px;
+}
+.product_information span{
+float: right;
+color: #bbd8f2;
+font-size: 20px;
+height: 42px;
+margin-top: -43px;
+}
+.order_now{
+    background: #16166f;
+    color: #fff;
+    width: 200px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    height: 30px;
+}
+
+/*======================product cstegory=============*/
+
+.vehicle_cat{
+	list-style:none;
+	margin: auto;
+	width:100%;
+	float:left;
+}
+
+.vehicle_cat li{
+	float:left;
+	color:white;
+	background:#586F8C;
+	width:100px;
+    margin-left: 1px;
+    padding: 10px 0 10px 0;
+	text-align:center;
+	cursor:pointer;
+
+	} 
+
+/*=========================================== header=============================================================*/
+.category{
+	 padding: 22px 0px 0px 0px;
+}
+
